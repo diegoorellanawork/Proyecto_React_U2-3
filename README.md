@@ -1,16 +1,32 @@
-# React + Vite
+# Práctica de la Semana: Proyecto React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto inicial desarrollado para la materia **Programación Web (U2_3)** en la UAGRM, donde se configuró un entorno moderno con React y Vite, se crearon los primeros componentes modulares y se versionó el código en GitHub.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologías Utilizadas
 
-## React Compiler
+- **[React](https://react.dev/)**: Biblioteca para interfaces de usuario.
+- **[Vite](https://vite.dev/)**: Entorno de desarrollo rápido y empaquetador.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework de estilos utilitarios.
+- **[Node.js](https://nodejs.org/)**: Entorno de ejecución en JavaScript.
+- **Git / GitHub**: Control de versiones y repositorio remoto.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Proyecto_U2_3/
+├── public/              # Archivos públicos estáticos
+├── src/
+│   ├── assets/          # Imágenes y recursos
+│   ├── components/      # Componentes personalizados de React
+│   │   └── Saludo.jsx   # Componente reutilizable de saludo
+│   ├── App.jsx          # Componente principal de la aplicación
+│   ├── index.css        # Importación de Tailwind CSS
+│   └── main.jsx         # Punto de montaje del DOM
+├── index.html           # Plantilla base HTML
+├── package.json         # Dependencias y scripts del proyecto
+├── vite.config.js       # Configuración de Vite y plugins
+└── README.md
